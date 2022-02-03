@@ -16,7 +16,7 @@ Usei todo meu conhecimento em CSS Flex para a produção dessa página, com base
 
 ## Observação
 
-Durante a busca de conhecimento relacionado a CSS Flex, descobri o método BEM ![Site oficial](http://getbem.com/)
+Durante a busca de conhecimento relacionado a CSS Flex, descobri o método BEM [Site oficial](http://getbem.com/)
 através do Canal **DPW** pratiquei o método nesse projeto.
 
 - [Canal DPW](https://www.youtube.com/channel/UCdHcHgSrWidiOg-mNFNB1Nw)
