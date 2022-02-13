@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+    <head>
+        <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teste BEM</title>
@@ -9,165 +9,201 @@
 </head>
 <body>
     <header>
-        <div class="header__menu">
-            <a href="#">
-                <div class="header__logo">LucioDev</div>
-            </a>
-            <nav>
-                <ul class="menu">
-                    <a href="#">
-                        <li class="menu__item">intro</li>
-                    </a>
-                    <a href="#">
-                        <li class="menu__item">home</li>
-                    </a>
-                    <a href="#">
-                        <li class="menu__item">landing</li>
-                    </a>
-                    <a href="#">
-                        <li class="menu__item">pages</li>
-                    </a>
-                    <a href="#" class="menu__link">
-                        <li class="menu__item">blog</li>
-                    </a>
-                    <a href="#">
-                        <li class="menu__item">portfolio</li>
-                    </a>
-                    <a href="#">
-                        <li class="menu__item">shop</li>
-                    </a>
-                    <a href="#">
-                        <li class="menu__item">elements</li>
-                    </a>
-                </ul>
-            </nav>
+        <div class="conteiner">
+            <div class="conteiner__menu">
+                <div class="header__logo">
+                    <a href="#">LucioDev</a>
+                </div>
+                <div class="menu__mobile">
+                    <div class="menu__toggle">
+                        <div class="line__one"></div>
+                        <div class="line__two"></div>
+                        <div class="line__three"></div>
+                    </div>
+                    <nav>
+                        <ul class="menu">
+                            <li>
+                                <a href="#">intro</a>
+                            </li>
+                            <li>
+                                <a href="#">home</a>
+                            </li>
+                            <li>
+                                <a href="#">landing</a>
+                            </li>
+                            <li>
+                                <a href="#">pages</a>
+                            </li>
+                            <li>
+                                <a href="#">blog</a>
+                            </li>
+                            <li>
+                                <a href="#">portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">shop</a>
+                            </li>
+                            <li>
+                                <a href="#">elements</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
         <div class="header__content">
-            <p class="header__text">Branding / desing / development / engineering</p>
+            <p>Branding / desing / development / engineering</p>
             <h1 id="header__title">Lúcio Creative Studio</h1>
-            <div class="area__btn">
-                <div class="header__btn">more</div>
-                <div class="header__btn">play</div>
+            <div>
+                <button class="header__btn">
+                    <a href="#">more</a>
+                </button>
+                <button class="header__btn">
+                    <a href="#">play</a>
+                </button>
             </div>
         </div>
     </header>
     <main>
-        <section class="main__section1">
-            <div class="section1__content1">
-                <h2>working process</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, commodi dolore natus accusantium doloribus facilis in inventore.</p>
-            </div>
-            <div class="section1__content2">
-                <div class="section1__item">
-                    <img src="./img/img1-section1.png" alt="icone" style="width: 90px;">
-                    <h3>1. discução</h3></div>
-                <div class="section1__item">
-                    <img src="./img/img2-section1.png" alt="icone">
-                    <h3>2. construção</h3>
+        <section>
+            <div class="conteiner1">
+                <div>
+                    <h2>working process</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, commodi dolore natus accusantium doloribus facilis in inventore.</p>
                 </div>
-                <div class="section1__item">
-                    <img src="./img/img3-section1.png" alt="icone">
-                    <h3>3. testando</h3>
-                </div>
-                <div class="section1__item">
-                    <img src="./img/img4-section1.png" alt="icone">
-                    <h3>4. sucesso</h3>
+                <div>
+                    <div class="section1__item">
+                        <img src="./img/img1-section1.png" alt="icone">
+                        <h3>1. discução</h3>
+                    </div>
+                    <div class="section1__item">
+                        <img src="./img/img2-section1.png" alt="icone">
+                        <h3>2. construção</h3>
+                    </div>
+                    <div class="section1__item">
+                        <img src="./img/img3-section1.png" alt="icone">
+                        <h3>3. testando</h3>
+                    </div>
+                    <div class="section1__item">
+                        <img src="./img/img4-section1.png" alt="icone">
+                        <h3>4. sucesso</h3>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="main__section2">
-            <h2 class="section2__title">por que nos escolher</h2>
-            <p class="section2__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quam iusto commodi explicabo veniam amet recusandae animi ad, doloribus sapiente aliquid eveniet nostrum deserunt maiores labore quae, quasi illum incidunt.</p>
-            <div class="section2__content">
-                <div class="section2__item">
-                    <h2 class="item__title">title title</h2>
-                    <span class="item--border">market plan</span>
-                    <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi incidunt iure voluptatem voluptate assumenda.</p>
-                </div>
-                <div class="section2__item">
-                    <h2 class="item__title">title title</h2>
-                    <span class="item--border">market plan</span>
-                    <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi incidunt iure voluptatem voluptate assumenda.</p>
-                </div>
-                <div class="section2__item">
-                    <h2 class="item__title">title title</h2>
-                    <span class="item--border">market plan</span>
-                    <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi incidunt iure voluptatem voluptate assumenda.</p>
+        <section>
+            <div class="conteiner2">
+                <h2 class="section2__title">por que nos escolher</h2>
+                <p class="section2__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quam iusto commodi explicabo veniam amet recusandae animi ad, doloribus sapiente aliquid eveniet nostrum deserunt maiores labore quae, quasi illum incidunt.</p>
+                <div class="section2__content">
+                    <div class="section2__item">
+                        <h2 class="item__title">title title</h2>
+                        <span class="item--border">market plan</span>
+                        <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi incidunt iure voluptatem voluptate assumenda.</p>
+                    </div>
+                    <div class="section2__item">
+                        <h2 class="item__title">title title</h2>
+                        <span class="item--border">market plan</span>
+                        <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi incidunt iure voluptatem voluptate assumenda.</p>
+                    </div>
+                    <div class="section2__item">
+                        <h2 class="item__title">title title</h2>
+                        <span class="item--border">market plan</span>
+                        <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi incidunt iure voluptatem voluptate assumenda.</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="main__section3">
-            <div class="section3__content1">
-                <h3 class="section3__title">nossos projetos</h3>
-                <p class="section3__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur laborum a maxime, reiciendis sapiente blanditiis asperiores ipsam voluptatum, magni perferendis doloribus libero obcaecati quaerat repudiandae ducimus. Et facere maiores ratione?</p>
-                <div class="section3__itens1">
-                    <div class="section3__item1">
-                        <a href="#">all works</a>
+        <section>
+            <div class="conteiner3">
+                <div>
+                    <h3 class="section3__title">nossos projetos</h3>
+                    <p class="section3__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur laborum a maxime, reiciendis sapiente blanditiis asperiores ipsam voluptatum, magni perferendis doloribus libero obcaecati quaerat repudiandae ducimus. Et facere maiores ratione?</p>
+                    <div class="section3__itens1">
+                        <div>
+                            <a href="#">all works</a>
+                        </div>
+                        <div>
+                            <a href="#">branding</a>
+                        </div>
+                        <div>
+                            <a href="#">design</a>
+                        </div>
+                        <div>
+                            <a href="#">development</a>
+                        </div>
                     </div>
-                    <div class="section3__item1">
-                        <a href="#">branding</a>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/img1-section3.jpg" alt="imagem-reference">
                     </div>
-                    <div class="section3__item1">
-                        <a href="#">design</a>
+                    <div>
+                        <img src="img/img2-section3.jpg" alt="imagem-reference">
                     </div>
-                    <div class="section3__item1">
-                        <a href="#">development</a>
+                    <div>
+                        <img src="img/img3-section3.jpg" alt="imagem-reference">
                     </div>
-                </div>
-            </div>
-            <div class="section3__content2">
-                <div>
-                    <img src="img/img1-section3.jpg" alt="imagem-reference">
-                </div>
-                <div>
-                    <img src="img/img2-section3.jpg" alt="imagem-reference">
-                </div>
-                <div>
-                    <img src="img/img3-section3.jpg" alt="imagem-reference">
-                </div>
-                <div>
-                    <img src="img/img4-section3.jpg" alt="imagem-reference">
-                </div>
-                <div>
-                    <img src="img/img5-section3.jpg" alt="imagem-reference">
-                </div>
-                <div>
-                    <img src="img/img6-section3.jpg" alt="imagem-reference">
-                </div>
-                <div>
-                    <img src="img/img7-section3.jpg" alt="imagem-reference">
-                </div>
-                <div>
-                    <img src="img/img8-section3.jpg" alt="imagem-reference">
-                </div>
-                <div>
-                    <img src="img/img9-section3.jpg" alt="imagem-reference">
+                    <div>
+                        <img src="img/img4-section3.jpg" alt="imagem-reference">
+                    </div>
+                    <div>
+                        <img src="img/img5-section3.jpg" alt="imagem-reference">
+                    </div>
+                    <div>
+                        <img src="img/img6-section3.jpg" alt="imagem-reference">
+                    </div>
+                    <div>
+                        <img src="img/img7-section3.jpg" alt="imagem-reference">
+                    </div>
+                    <div>
+                        <img src="img/img8-section3.jpg" alt="imagem-reference">
+                    </div>
+                    <div>
+                        <img src="img/img9-section3.jpg" alt="imagem-reference">
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="main__section4">
-            <h1>encontre nossa equipe</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore in, facere, quam hic nihil laboriosam aut culpa at aliquam quidem, voluptate eum fugiat nemo repellendus nulla molestias sint tenetur maxime?</p>
-            <div class="section4__content">
-                <div class="section4__team">
-                    <img src="./img/img1-section4.jpg" alt="imagem-dev">
-                    <h2>lucio brito</h2>
-                    <p>web developer</p>
+        <section>
+            <div class="conteiner4">
+                <h1>encontre nossa equipe</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore in, facere, quam hic nihil laboriosam aut culpa at aliquam quidem, voluptate eum fugiat nemo repellendus nulla molestias sint tenetur maxime?</p>
+                <div>
+                    <div>
+                        <img src="./img/img1-section4.jpg" alt="imagem-dev">
+                        <h2>lucio brito</h2>
+                        <p>web developer</p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <span class="footer__logo">LucioDev</span>
-        <div class="footer__item">
-            <div><img src="./img/img2-footer.png" alt="icone-contato"></div>
-            <div><img src="./img/img1-footer.png" alt="icone-contato"></div>
-            <div><img src="./img/img3-footer.png" alt="icone-contato"></div>
-            <div><img src="./img/img4-footer.png" alt="icone-contato"></div>
+        <div class="conteiner">
+            <span>LucioDev</span>
+            <div>
+                <div>
+                    <a href="https://www.linkedin.com/in/l%C3%BAcio-pereira-brito-039039231/" target="_blank">
+                        <img src="./img/img1-footer.png" alt="icone-contato">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/lucio.brito_/" target="_blank">
+                        <img src="./img/img3-footer.png" alt="icone-contato">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/Luciopbrito" target="_blank">
+                        <img src="./img/img4-footer.png" alt="icone-contato">
+                    </a>
+                </div>
+            </div>
+            <p class="copyright">
+                <a href="#">&copy; 2022 LucioDev</a>
+            </p>
         </div>
-        <p class="copyright">
-            <a href="index.htmt">&copy; 2022 LucioDev</a>
-        </p>
     </footer>
 </body>
+<script src="menu.js"></script>
 </html>
