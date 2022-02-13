@@ -3,9 +3,9 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/Luciopbrito/css-flex)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Luciopbrito/css-flex)
 
-# Template site com CSS FLEX
+# Template site com CSS FLEX e GRID
 
-Usei todo meu conhecimento em CSS Flex para a produção dessa página, com base em meus estudos.
+Usei todo meu conhecimento em CSS Flex e Grid para a produção dessa página, com base em meus estudos.
 
 - [Sites de inspiração](https://www.templatemonsterpreview.com/demo/98276.html?_gl=1*14xce8*_ga*MTU5MDc0MDI4Ni4xNjQzNTc1ODUz*_ga_FTPYEGT5LY*MTY0MzU3NTg1Mi4xLjEuMTY0MzU3NTg3OS4zMw..&_ga=2.35133988.465240710.1643575853-1590740286.1643575853&_gac=1.247410934.1643575859.Cj0KCQiAi9mPBhCJARIsAHchl1wNddFMgYgFZG1CeY6193vfDsqbOVxcgkObtE7r5rH74crUs8brE5MaAkFPEALw_wcB)
 
