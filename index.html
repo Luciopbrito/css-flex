@@ -6,49 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teste BEM</title>
     <link rel="stylesheet" href="style.css">
+    <!-- link para icones -->
+    <script src="https://kit.fontawesome.com/94c265fb02.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div class="conteiner">
-            <div class="conteiner__menu">
-                <div class="header__logo">
-                    <a href="#">LucioDev</a>
+        <div class="conteiner__menu">
+            <div class="header__logo">
+                <a href="#">LucioDev</a>
+            </div>
+            <div class="menu__mobile">
+                <div class="menu__toggle">
+                    <div class="line__one"></div>
+                    <div class="line__two"></div>
+                    <div class="line__three"></div>
                 </div>
-                <div class="menu__mobile">
-                    <div class="menu__toggle">
-                        <div class="line__one"></div>
-                        <div class="line__two"></div>
-                        <div class="line__three"></div>
-                    </div>
-                    <nav>
-                        <ul class="menu">
-                            <li>
-                                <a href="#">intro</a>
-                            </li>
-                            <li>
-                                <a href="#">home</a>
-                            </li>
-                            <li>
-                                <a href="#">landing</a>
-                            </li>
-                            <li>
-                                <a href="#">pages</a>
-                            </li>
-                            <li>
-                                <a href="#">blog</a>
-                            </li>
-                            <li>
-                                <a href="#">portfolio</a>
-                            </li>
-                            <li>
-                                <a href="#">shop</a>
-                            </li>
-                            <li>
-                                <a href="#">elements</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a href="#">intro</a>
+                        </li>
+                        <li>
+                            <a href="#">home</a>
+                        </li>
+                        <li>
+                            <a href="#">landing</a>
+                        </li>
+                        <li>
+                            <a href="#">pages</a>
+                        </li>
+                        <li>
+                            <a href="#">blog</a>
+                        </li>
+                        <li>
+                            <a href="#">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#">shop</a>
+                        </li>
+                        <li>
+                            <a href="#">elements</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
         <div class="header__content">
@@ -65,137 +65,227 @@
         </div>
     </header>
     <main>
-        <section>
-            <div class="conteiner1">
-                <div>
-                    <h2>working process</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, commodi dolore natus accusantium doloribus facilis in inventore.</p>
+        <section class="section1">
+            <div class="section1__content">
+                <h2>working process</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, commodi dolore natus accusantium doloribus facilis in inventore.</p>
+            </div>
+            <div class="section1__items">
+                <div class="section1__item">
+                    <img src="./img/img1-section1.png" alt="imagem de balões de conversa">
+                    <h3>1. discução</h3>
                 </div>
-                <div>
-                    <div class="section1__item">
-                        <img src="./img/img1-section1.png" alt="icone">
-                        <h3>1. discução</h3>
+                <div class="section1__item">
+                    <img src="./img/img2-section1.png" alt="imagem de um monitor com um pincel">
+                    <h3>2. construção</h3>
+                </div>
+                <div class="section1__item">
+                    <img src="./img/img3-section1.png" alt="imagem de duas engrenagens">
+                    <h3>3. testando</h3>
+                </div>
+                <div class="section1__item">
+                    <img src="./img/img4-section1.png" alt="imagem de um visto">
+                    <h3>4. sucesso</h3>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <h2 class="section2__title">por que nos escolher</h2>
+            <p class="section2__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quam iusto commodi explicabo veniam amet recusandae animi ad, doloribus sapiente aliquid eveniet nostrum deserunt maiores labore quae, quasi illum incidunt.</p>
+            <div class="section2__content">
+                <div class="section2__item">
+                    <h2 class="item__title">title title</h2>
+                    <span class="item--border">market plan</span>
+                    <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi incidunt iure voluptatem voluptate assumenda.</p>
+                </div>
+                <div class="section2__item">
+                    <h2 class="item__title">title title</h2>
+                    <span class="item--border">market plan</span>
+                    <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi incidunt iure voluptatem voluptate assumenda.</p>
+                </div>
+                <div class="section2__item">
+                    <h2 class="item__title">title title</h2>
+                    <span class="item--border">market plan</span>
+                    <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi incidunt iure voluptatem voluptate assumenda.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="section3__content">
+                <h3>nossos projetos</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur laborum a maxime, reiciendis sapiente blanditiis asperiores ipsam voluptatum, magni perferendis doloribus libero obcaecati quaerat repudiandae ducimus. Et facere maiores ratione?</p>
+                <nav class="section3__links">
+                    <ul>
+                        <li>
+                            <a href="#" class="link">all works</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">branding</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">design</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">development</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="section3__portfolio">
+                <div class="portfolio">
+                    <img src="./img/img1-section3-small.jpg" alt="">
+                    <div class="portfolio__hide">
+                        <p>portfólio #1</p>
+                        <div>
+                            <a href="https://www.github.com/luciopbrito/" target="_blank" rel="author">
+                                <i class="fa-brands fa-github fa-xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/l%C3%BAcio-pereira-brito-039039231/" target="_blank" rel="author">
+                                <i class="fa-brands fa-linkedin fa-xl"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div class="section1__item">
-                        <img src="./img/img2-section1.png" alt="icone">
-                        <h3>2. construção</h3>
+                </div>
+                <div class="portfolio">
+                    <img src="./img/img2-section3-small.jpg" alt="">
+                    <div class="portfolio__hide">
+                        <p>portfólio #2</p>
+                        <div>
+                            <a href="https://www.github.com/luciopbrito/" target="_blank" rel="author">
+                                <i class="fa-brands fa-github fa-xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/l%C3%BAcio-pereira-brito-039039231/" target="_blank" rel="author">
+                                <i class="fa-brands fa-linkedin fa-xl"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div class="section1__item">
-                        <img src="./img/img3-section1.png" alt="icone">
-                        <h3>3. testando</h3>
+                </div>
+                <div class="portfolio">
+                    <img src="./img/img3-section3-small.jpg" alt="">
+                    <div class="portfolio__hide">
+                        <p>portfólio #3</p>
+                        <div>
+                            <a href="https://www.github.com/luciopbrito/" target="_blank" rel="author">
+                                <i class="fa-brands fa-github fa-xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/l%C3%BAcio-pereira-brito-039039231/" target="_blank" rel="author">
+                                <i class="fa-brands fa-linkedin fa-xl"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div class="section1__item">
-                        <img src="./img/img4-section1.png" alt="icone">
-                        <h3>4. sucesso</h3>
+                </div>
+                <div class="portfolio">
+                    <img src="./img/img4-section3-small.jpg" alt="">
+                    <div class="portfolio__hide">
+                        <p>portfólio #4</p>
+                        <div>
+                            <a href="https://www.github.com/luciopbrito/" target="_blank" rel="author">
+                                <i class="fa-brands fa-github fa-xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/l%C3%BAcio-pereira-brito-039039231/" target="_blank" rel="author">
+                                <i class="fa-brands fa-linkedin fa-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <img src="./img/img5-section3-small.jpg" alt="">
+                    <div class="portfolio__hide">
+                        <p>portfólio #5</p>
+                        <div>
+                            <a href="https://www.github.com/luciopbrito/" target="_blank" rel="author">
+                                <i class="fa-brands fa-github fa-xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/l%C3%BAcio-pereira-brito-039039231/" target="_blank" rel="author">
+                                <i class="fa-brands fa-linkedin fa-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <img src="./img/img6-section3-small.jpg" alt="">
+                    <div class="portfolio__hide">
+                        <p>portfólio #6</p>
+                        <div>
+                            <a href="https://www.github.com/luciopbrito/" target="_blank" rel="author">
+                                <i class="fa-brands fa-github fa-xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/l%C3%BAcio-pereira-brito-039039231/" target="_blank" rel="author">
+                                <i class="fa-brands fa-linkedin fa-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <img src="./img/img7-section3-small.jpg" alt="">
+                    <div class="portfolio__hide">
+                        <p>portfólio #7</p>
+                        <div>
+                            <a href="https://www.github.com/luciopbrito/" target="_blank" rel="author">
+                                <i class="fa-brands fa-github fa-xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/l%C3%BAcio-pereira-brito-039039231/" target="_blank" rel="author">
+                                <i class="fa-brands fa-linkedin fa-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <img src="./img/img8-section3-small.jpg" alt="">
+                    <div class="portfolio__hide">
+                        <p>portfólio #8</p>
+                        <div>
+                            <a href="https://www.github.com/luciopbrito/" target="_blank" rel="author">
+                                <i class="fa-brands fa-github fa-xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/l%C3%BAcio-pereira-brito-039039231/" target="_blank" rel="author">
+                                <i class="fa-brands fa-linkedin fa-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <img src="./img/img9-section3-small.jpg" alt="">
+                    <div class="portfolio__hide">
+                        <p>portfólio #9</p>
+                        <div>
+                            <a href="https://www.github.com/luciopbrito/" target="_blank" rel="author">
+                                <i class="fa-brands fa-github fa-xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/l%C3%BAcio-pereira-brito-039039231/" target="_blank" rel="author">
+                                <i class="fa-brands fa-linkedin fa-xl"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="conteiner2">
-                <h2 class="section2__title">por que nos escolher</h2>
-                <p class="section2__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quam iusto commodi explicabo veniam amet recusandae animi ad, doloribus sapiente aliquid eveniet nostrum deserunt maiores labore quae, quasi illum incidunt.</p>
-                <div class="section2__content">
-                    <div class="section2__item">
-                        <h2 class="item__title">title title</h2>
-                        <span class="item--border">market plan</span>
-                        <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi incidunt iure voluptatem voluptate assumenda.</p>
-                    </div>
-                    <div class="section2__item">
-                        <h2 class="item__title">title title</h2>
-                        <span class="item--border">market plan</span>
-                        <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi incidunt iure voluptatem voluptate assumenda.</p>
-                    </div>
-                    <div class="section2__item">
-                        <h2 class="item__title">title title</h2>
-                        <span class="item--border">market plan</span>
-                        <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi incidunt iure voluptatem voluptate assumenda.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="conteiner3">
-                <div>
-                    <h3 class="section3__title">nossos projetos</h3>
-                    <p class="section3__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur laborum a maxime, reiciendis sapiente blanditiis asperiores ipsam voluptatum, magni perferendis doloribus libero obcaecati quaerat repudiandae ducimus. Et facere maiores ratione?</p>
-                    <div class="section3__itens1">
-                        <div>
-                            <a href="#">all works</a>
-                        </div>
-                        <div>
-                            <a href="#">branding</a>
-                        </div>
-                        <div>
-                            <a href="#">design</a>
-                        </div>
-                        <div>
-                            <a href="#">development</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="img/img1-section3.jpg" alt="imagem-reference">
-                    </div>
-                    <div>
-                        <img src="img/img2-section3.jpg" alt="imagem-reference">
-                    </div>
-                    <div>
-                        <img src="img/img3-section3.jpg" alt="imagem-reference">
-                    </div>
-                    <div>
-                        <img src="img/img4-section3.jpg" alt="imagem-reference">
-                    </div>
-                    <div>
-                        <img src="img/img5-section3.jpg" alt="imagem-reference">
-                    </div>
-                    <div>
-                        <img src="img/img6-section3.jpg" alt="imagem-reference">
-                    </div>
-                    <div>
-                        <img src="img/img7-section3.jpg" alt="imagem-reference">
-                    </div>
-                    <div>
-                        <img src="img/img8-section3.jpg" alt="imagem-reference">
-                    </div>
-                    <div>
-                        <img src="img/img9-section3.jpg" alt="imagem-reference">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="conteiner4">
+        <section class="section4">
+            <div class="section4__content">
                 <h1>encontre nossa equipe</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore in, facere, quam hic nihil laboriosam aut culpa at aliquam quidem, voluptate eum fugiat nemo repellendus nulla molestias sint tenetur maxime?</p>
+            </div>
+            <div>
                 <div>
-                    <div>
-                        <img src="./img/img1-section4.jpg" alt="imagem-dev">
-                        <h2>lucio brito</h2>
-                        <p>web developer</p>
-                    </div>
+                    <img src="./img/img1-section4.jpg" alt="imagem-dev" loading="auto">
+                    <h2>lucio brito</h2>
+                    <p>web developer</p>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="conteiner">
+        <div class="footer__conteiner">
             <span>LucioDev</span>
             <div>
                 <div>
                     <a href="https://www.linkedin.com/in/l%C3%BAcio-pereira-brito-039039231/" target="_blank">
-                        <img src="./img/img1-footer.png" alt="icone-contato">
-                    </a>
-                </div>
-                <div>
-                    <a href="https://www.instagram.com/lucio.brito_/" target="_blank">
-                        <img src="./img/img3-footer.png" alt="icone-contato">
+                        <i class="fa-brands fa-linkedin fa-2xl"></i>
                     </a>
                 </div>
                 <div>
                     <a href="https://github.com/Luciopbrito" target="_blank">
-                        <img src="./img/img4-footer.png" alt="icone-contato">
+                        <i class="fa-brands fa-github fa-2xl"></i>
                     </a>
                 </div>
             </div>
